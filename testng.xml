@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Basic" parallel="tests" thread-count="5">
+<listeners>
+<listener class-name="test.Listeners"></listener>
+</listeners>
+  <test thread-count="5" name="Basicssteps">
+  <parameter name="URL" value="https://rahulshettyacademy.com/angularpractice/"></parameter>
+  <parameter name="APIKEY/Username" value="1234"></parameter>
+    <classes>
+      
+       <class name="test.TestNGClass2"/>
+        <class name="test.TestNGClass4"/>
+              <class name="test.TestNGClass3"/>  
+    </classes>
+  </test>   
+ <test name= "Car Loan">
+   <parameter name="URL" value="https:Carloan.com"></parameter>
+  <classes>
+  <class name="test.TestNGClass1"/>
+  <class name= "test.TestNGClass3">
+  <methods>
+  <exclude name="Mobile.*"/>
+  </methods>
+  
+  </class>
+ </classes>
+ </test> 
+</suite> <!-- Suite -->
