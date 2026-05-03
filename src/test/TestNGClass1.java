@@ -25,6 +25,11 @@ public class TestNGClass1 {
 	{
 		System.out.println("I'm the last number one @after suite");
 	}
+	@AfterSuite
+	public void envsent1()
+	{
+		System.out.println("I'm the last number one @after suite");
+	}
 
 @Parameters({"URL"})
 @Test
