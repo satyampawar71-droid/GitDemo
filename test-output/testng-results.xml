@@ -1,98 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="21" passed="16" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="1" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-15T18:19:29 IST" name="Basic" finished-at="2026-03-15T18:19:30 IST" duration-ms="706">
+  <suite started-at="2026-05-03T16:29:48 IST" name="Default suite" finished-at="2026-05-03T16:29:48 IST" duration-ms="208">
     <groups>
       <group name="Smoke">
-        <method signature="TestNGClass2.Third()[pri:0, instance:test.TestNGClass2@3d51f06e]" name="Third" class="test.TestNGClass2"/>
-        <method signature="TestNGClass3.Third()[pri:0, instance:test.TestNGClass3@619713e5]" name="Third" class="test.TestNGClass3"/>
-        <method signature="TestNGClass1.Third()[pri:0, instance:test.TestNGClass1@7b9a4292]" name="Third" class="test.TestNGClass1"/>
-        <method signature="TestNGClass3.Third()[pri:0, instance:test.TestNGClass3@4a94ee4]" name="Third" class="test.TestNGClass3"/>
+        <method signature="TestNGClass1.Third()[pri:0, instance:test.TestNGClass1@63355449]" name="Third" class="test.TestNGClass1"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2026-03-15T18:19:29 IST" name="Car Loan" finished-at="2026-03-15T18:19:30 IST" duration-ms="440">
-      <class name="test.TestNGClass3">
-        <test-method is-config="true" signature="envsent()[pri:0, instance:test.TestNGClass3@4a94ee4]" started-at="2026-03-15T18:19:29 IST" name="envsent" finished-at="2026-03-15T18:19:29 IST" duration-ms="22" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- envsent -->
-        <test-method signature="Third()[pri:0, instance:test.TestNGClass3@4a94ee4]" started-at="2026-03-15T18:19:30 IST" name="Third" finished-at="2026-03-15T18:19:30 IST" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Third -->
-        <test-method signature="loginAPICar()[pri:0, instance:test.TestNGClass3@4a94ee4]" started-at="2026-03-15T18:19:30 IST" name="loginAPICar" finished-at="2026-03-15T18:19:30 IST" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginAPICar -->
-        <test-method signature="webloginCar()[pri:0, instance:test.TestNGClass3@4a94ee4]" started-at="2026-03-15T18:19:30 IST" name="webloginCar" finished-at="2026-03-15T18:19:30 IST" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- webloginCar -->
-      </class> <!-- test.TestNGClass3 -->
+    <test started-at="2026-05-03T16:29:48 IST" name="Default test" finished-at="2026-05-03T16:29:48 IST" duration-ms="208">
       <class name="test.TestNGClass1">
-        <test-method signature="Third()[pri:0, instance:test.TestNGClass1@7b9a4292]" started-at="2026-03-15T18:19:29 IST" name="Third" finished-at="2026-03-15T18:19:30 IST" duration-ms="35" status="PASS">
+        <test-method signature="Third()[pri:0, instance:test.TestNGClass1@63355449]" started-at="2026-05-03T16:29:48 IST" name="Third" finished-at="2026-05-03T16:29:48 IST" duration-ms="41" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Third -->
-        <test-method signature="Zdemo(java.lang.String)[pri:0, instance:test.TestNGClass1@7b9a4292]" started-at="2026-03-15T18:19:30 IST" name="Zdemo" finished-at="2026-03-15T18:19:30 IST" duration-ms="17" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https:Carloan.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Zdemo -->
-        <test-method signature="Second()[pri:0, instance:test.TestNGClass1@7b9a4292]" started-at="2026-03-15T18:19:30 IST" name="Second" finished-at="2026-03-15T18:19:30 IST" depends-on-methods="test.TestNGClass1.Zdemo" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Second -->
-        <test-method is-config="true" signature="ExecuteLast()[pri:0, instance:test.TestNGClass1@7b9a4292]" started-at="2026-03-15T18:19:30 IST" name="ExecuteLast" finished-at="2026-03-15T18:19:30 IST" duration-ms="12" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ExecuteLast -->
-        <test-method is-config="true" signature="envsent()[pri:0, instance:test.TestNGClass1@7b9a4292]" started-at="2026-03-15T18:19:30 IST" name="envsent" finished-at="2026-03-15T18:19:30 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- envsent -->
-      </class> <!-- test.TestNGClass1 -->
-    </test> <!-- Car Loan -->
-    <test started-at="2026-03-15T18:19:29 IST" name="Basicssteps" finished-at="2026-03-15T18:19:30 IST" duration-ms="706">
-      <class name="test.TestNGClass4">
-        <test-method is-config="true" signature="loginAPIHomeLoan()[pri:0, instance:test.TestNGClass4@41fbdac4]" started-at="2026-03-15T18:19:30 IST" name="loginAPIHomeLoan" finished-at="2026-03-15T18:19:30 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginAPIHomeLoan -->
-        <test-method signature="MobileloginHomeLoan()[pri:0, instance:test.TestNGClass4@41fbdac4]" started-at="2026-03-15T18:19:30 IST" name="MobileloginHomeLoan" finished-at="2026-03-15T18:19:30 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobileloginHomeLoan -->
-        <test-method is-config="true" signature="loginAPIHomeLoan()[pri:0, instance:test.TestNGClass4@41fbdac4]" started-at="2026-03-15T18:19:30 IST" name="loginAPIHomeLoan" finished-at="2026-03-15T18:19:30 IST" duration-ms="42" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginAPIHomeLoan -->
-        <test-method signature="webloginHomeLoan()[pri:0, instance:test.TestNGClass4@41fbdac4]" started-at="2026-03-15T18:19:30 IST" name="webloginHomeLoan" finished-at="2026-03-15T18:19:30 IST" duration-ms="48" status="FAIL">
-          <exception class="java.lang.AssertionError">
+        <test-method signature="Zdemo(java.lang.String)[pri:0, instance:test.TestNGClass1@63355449]" started-at="2026-05-03T16:29:48 IST" name="Zdemo" finished-at="2026-05-03T16:29:48 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
             <message>
-              <![CDATA[expected [true] but found [false]]]>
+              <![CDATA[
+Parameter 'URL' is required by @Test on method Zdemo but has not been marked @Optional or defined
+in C:\Users\satyam\AppData\Local\Temp\testng-eclipse-280534446\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at test.TestNGClass4.webloginHomeLoan(TestNGClass4.java:14)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Test on method Zdemo but has not been marked @Optional or defined
+in C:\Users\satyam\AppData\Local\Temp\testng-eclipse-280534446\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:885)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -100,111 +40,67 @@ at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-at java.base/java.lang.Thread.run(Thread.java:1474)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- webloginHomeLoan -->
-      </class> <!-- test.TestNGClass4 -->
-      <class name="test.TestNGClass3">
-        <test-method signature="MobileloginCar1()[pri:0, instance:test.TestNGClass3@619713e5]" started-at="2026-03-15T18:19:30 IST" name="MobileloginCar1" finished-at="2026-03-15T18:19:30 IST" duration-ms="8" status="PASS">
+        </test-method> <!-- Zdemo -->
+        <test-method signature="Second()[pri:0, instance:test.TestNGClass1@63355449]" started-at="2026-05-03T16:29:48 IST" name="Second" finished-at="2026-05-03T16:29:48 IST" depends-on-methods="test.TestNGClass1.Zdemo" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method test.TestNGClass1.Second() on instance test.TestNGClass1@63355449 depends on not successfully finished methods 
+[test.TestNGClass1.Zdemo() on instance test.TestNGClass1@63355449]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method test.TestNGClass1.Second() on instance test.TestNGClass1@63355449 depends on not successfully finished methods 
+[test.TestNGClass1.Zdemo() on instance test.TestNGClass1@63355449]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MobileloginCar1 -->
-        <test-method signature="MobileloginCar2(java.lang.String,java.lang.String)[pri:0, instance:test.TestNGClass3@619713e5]" started-at="2026-03-15T18:19:30 IST" name="MobileloginCar2" finished-at="2026-03-15T18:19:30 IST" duration-ms="18" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://rahulshettyacademy.com/angularpractice/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1234]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- Second -->
+        <test-method is-config="true" signature="ExecuteLast()[pri:0, instance:test.TestNGClass1@63355449]" started-at="2026-05-03T16:29:48 IST" name="ExecuteLast" finished-at="2026-05-03T16:29:48 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MobileloginCar2 -->
-        <test-method signature="MobileloginCar3(java.lang.String,java.lang.String)[pri:0, instance:test.TestNGClass3@619713e5]" started-at="2026-03-15T18:19:30 IST" name="MobileloginCar3" data-provider="getdata" finished-at="2026-03-15T18:19:30 IST" duration-ms="30" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1ststesername]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1stpassword]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- ExecuteLast -->
+        <test-method is-config="true" signature="envsent()[pri:0, instance:test.TestNGClass1@63355449]" started-at="2026-05-03T16:29:48 IST" name="envsent" finished-at="2026-05-03T16:29:48 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MobileloginCar3 -->
-        <test-method signature="MobileloginCar3(java.lang.String,java.lang.String)[pri:0, instance:test.TestNGClass3@619713e5]" started-at="2026-03-15T18:19:30 IST" name="MobileloginCar3" data-provider="getdata" finished-at="2026-03-15T18:19:30 IST" duration-ms="13" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[2ndtesername]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[2ndpassword]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobileloginCar3 -->
-        <test-method signature="MobileloginCar3(java.lang.String,java.lang.String)[pri:0, instance:test.TestNGClass3@619713e5]" started-at="2026-03-15T18:19:30 IST" name="MobileloginCar3" data-provider="getdata" finished-at="2026-03-15T18:19:30 IST" duration-ms="5" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[3rdtesername]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[3rdpassword]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobileloginCar3 -->
-        <test-method signature="Third()[pri:0, instance:test.TestNGClass3@619713e5]" started-at="2026-03-15T18:19:30 IST" name="Third" finished-at="2026-03-15T18:19:30 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Third -->
-        <test-method signature="loginAPICar()[pri:0, instance:test.TestNGClass3@619713e5]" started-at="2026-03-15T18:19:30 IST" name="loginAPICar" finished-at="2026-03-15T18:19:30 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginAPICar -->
-        <test-method signature="webloginCar()[pri:0, instance:test.TestNGClass3@619713e5]" started-at="2026-03-15T18:19:30 IST" name="webloginCar" finished-at="2026-03-15T18:19:30 IST" duration-ms="49" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- webloginCar -->
-      </class> <!-- test.TestNGClass3 -->
-      <class name="test.TestNGClass2">
-        <test-method is-config="true" signature="Prerequesite()[pri:0, instance:test.TestNGClass2@3d51f06e]" started-at="2026-03-15T18:19:29 IST" name="Prerequesite" finished-at="2026-03-15T18:19:29 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Prerequesite -->
-        <test-method signature="Third()[pri:0, instance:test.TestNGClass2@3d51f06e]" started-at="2026-03-15T18:19:29 IST" name="Third" finished-at="2026-03-15T18:19:30 IST" duration-ms="29" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Third -->
-      </class> <!-- test.TestNGClass2 -->
-    </test> <!-- Basicssteps -->
-  </suite> <!-- Basic -->
+        </test-method> <!-- envsent -->
+      </class> <!-- test.TestNGClass1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

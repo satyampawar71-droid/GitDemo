@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite parallel="tests" name="Failed suite [Basic]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="test.Listeners"/>
-  </listeners>
-  <test thread-count="5" parallel="tests" name="Basicssteps(failed)">
-    <parameter name="URL" value="https://rahulshettyacademy.com/angularpractice/"/>
-    <parameter name="APIKEY/Username" value="1234"/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.TestNGClass4">
+      <class name="test.TestNGClass1">
         <methods>
-          <include name="loginAPIHomeLoan"/>
-          <include name="webloginHomeLoan"/>
+          <include name="Zdemo"/>
+          <include name="envsent"/>
+          <include name="ExecuteLast"/>
+          <include name="Second"/>
         </methods>
-      </class> <!-- test.TestNGClass4 -->
+      </class> <!-- test.TestNGClass1 -->
     </classes>
-  </test> <!-- Basicssteps(failed) -->
-</suite> <!-- Failed suite [Basic] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
