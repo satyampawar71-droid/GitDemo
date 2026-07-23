@@ -16,8 +16,10 @@ public class TestNGClass1 {
 	{
 		System.out.println("This After Test will run as we used after Test Annotation here");
 		System.out.println("This is after the code download from Gihub and making some modification");
-		System.out.println("System.out.println(\"This After Test will run as we used after Test Annotation here\")");
-
+		System.out.println("System.out.println(\"This After Test will run as we used after Test browser");
+		System.out.println("System.out.println(\"This After Test will run as we used after Test Log file");
+		System.out.println("System.out.println(\"This After Test will run as we used after Test Error Report");
+		System.out.println("System.out.println(\"This After Test will run as we used after Test Happy Path");
 	}	
 	
 	@AfterSuite
